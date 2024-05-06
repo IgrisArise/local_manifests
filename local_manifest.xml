@@ -6,8 +6,7 @@
             clone-depth="1" />
      <remote name="cl"
             fetch="https://gitlab.com/crdroidandroid" />
- <!--Device Tree -->
- <project path="device/xiaomi/veux" name="AswinOP/device_xiaomi_veux" remote="github" revision="fourteen" />
+ 
 
  <!--Vendor Tree -->
  <project path="vendor/xiaomi/veux" name="AswinOP/vendor_xiaomi_veux" remote="github" revision="fourteen" />
@@ -23,6 +22,9 @@
 
  <!--Miui Camera -->
  <project path="vendor/xiaomi/miuicamera" name="Positron-B/vendor_xiaomi_miuicamera" remote="github" revision="main" />
+ 
+ <!--Hardware -->
+ <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-21" />
  
  <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="cl" revision="14.0" clone-depth="1" />
