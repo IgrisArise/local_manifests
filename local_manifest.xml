@@ -6,8 +6,23 @@
             clone-depth="1" />
      <remote name="cl"
             fetch="https://gitlab.com/crdroidandroid" />
- <!--Tree -->
+ <!--Device Tree -->
  <project path="device/xiaomi/veux" name="AswinOP/device_xiaomi_veux" remote="github" revision="fourteen" />
+
+ <!--Vendor Tree -->
+ <project path="vendor/xiaomi/veux" name="AswinOP/vendor_xiaomi_veux" remote="github" revision="fourteen" />
+
+ <!--Kernel Tree -->
+ <project path="device/xiaomi/veux-kernel" name="Karan-Frost/device_xiaomi_veux-kernel" remote="github" revision="14.0" />
+
+ <!--kernel Tree -->
+ <project path="kernel/xiaomi/sm6375" name="dereference23/kernel_xiaomi_sm6375" remote="github" revision="main" />
+
+ <!--Miui Camera-Veux -->
+ <project path="vendor/xiaomi/miuicamera-veux" name="Positron-B/vendor_xiaomi_miuicamera-veux" remote="github" revision="main" />
+
+ <!--Miui Camera -->
+ <project path="vendor/xiaomi/miuicamera" name="Positron-B/vendor_xiaomi_miuicamera" remote="github" revision="main" />
  
  <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="cl" revision="14.0" clone-depth="1" />
